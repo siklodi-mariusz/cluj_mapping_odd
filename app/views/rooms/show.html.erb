@@ -1,0 +1,49 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @room.name %>
+</p>
+
+<p>
+  <strong>Hotel:</strong>
+  <%= @room.hotel %>
+</p>
+
+<p>
+  <strong>Link:</strong>
+  <%= @room.link %>
+</p>
+
+<p>
+  <strong>Lat:</strong>
+  <%= @room.lat %>
+</p>
+
+<p>
+  <strong>Lon:</strong>
+  <%= @room.lon %>
+</p>
+
+<p>
+  <strong>Min:</strong>
+  <%= @room.min %>
+</p>
+
+<p>
+  <strong>Max:</strong>
+  <%= @room.max %>
+</p>
+
+<p>
+  <strong>Phone:</strong>
+  <%= @room.phone %>
+</p>
+
+<p>
+  <strong>Address:</strong>
+  <%= @room.address %>
+</p>
+
+<%= link_to 'Edit', edit_room_path(@room) %> |
+<%= link_to 'Back', rooms_path %>

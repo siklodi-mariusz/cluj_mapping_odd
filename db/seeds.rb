@@ -5,3 +5,22 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+rooms = File.open(File.join(Rails.root, 'db', 'document.json')).read
+rooms_json = JSON.parse(rooms)
+Room.delete_all
+Facility.delete_all
+
+rooms_json.each do |r|
+  room = Room.create(name: r[1]["nume"],
+              hotel: r[1]["hotel"],
+              link: r[1]["link"],
+              lat: r[1]["lat"],
+              lon: r[1]["lon"],
+              min: r[1]["locuri"]["min"],
+              max: r[1]["locuri"]["max"],
+              phone: r[1]["telefon"].join(' ')
+   )
+   r[1]["facilitati"].each do |f|
+     room.facilities.create(name: f)
+   end
+end

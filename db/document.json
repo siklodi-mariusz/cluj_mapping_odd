@@ -1,0 +1,132 @@
+{
+  "sala1": {
+    "nume": "Sala Crystal",
+    "hotel": "WEST CITY HOTEL",
+    "link": "http://www.westcityhotel.ro/",
+    "lat": 46.750929,
+    "lon": 23.52099599999997,
+    "locuri": {"min": 70,"max": 400},
+    "telefon":["0264 501 820","0733 055 923"],
+    "facilitati": ["Aer conditionat", "WI-FI", "Flipchart", "Video proiector", "TV LCD", "Microfoane", "Sisteme Audio"]
+  },
+  "sala2": {
+    "nume": "Sala Blue Sky",
+    "hotel": "WEST CITY HOTEL",
+    "link": "http://www.westcityhotel.ro/",
+    "lat": 46.750929,
+    "lon": 23.52099599999997,
+    "locuri": {"min": 40,"max": 80},
+    "telefon":["0264501820","0733055923"],
+    "facilitati": ["Aer conditionat", "WI-FI", "Flipchart", "Video proiector", "TV LCD", "Microfoane", "Sisteme Audio"]
+  },
+  "sala3": {
+    "nume": "Sala Board Room",
+    "hotel": "WEST CITY HOTEL",
+    "link": "http://www.westcityhotel.ro/",
+    "lat": 46.750929,
+    "lon": 23.52099599999997,
+    "locuri": {"min": 0,"max": 14},
+    "telefon":["0264501820","0733055923"],
+    "facilitati": ["Aer conditionat", "WI-FI", "Flipchart", "Video proiector", "TV LCD", "Microfoane", "Sisteme Audio"]
+  },
+  "sala5": {
+    "nume": "Sali conferinte",
+    "hotel": "HOTEL UNIVERS T",
+    "link": "http://www.universt.ro/",
+    "lat": 46.772514,
+    "lon": 23.626860999999963,
+    "locuri": {"min": 25,"max": 80},
+    "telefon":["0264 414 161","0734 771 177"],
+    "facilitati": ["Aer conditionat", "WI-FI", "Flipchart", "Video proiector", "TV LCD", "Microfoane", "Sisteme Audio", "Sistem Teleconferinta", "Cabine pentru traducatori"]
+  },
+  "sala6": {
+    "nume": "Sala evenimente",
+    "hotel": "HOTEL TRANSILVANIA",
+   "link": "http://www.hoteltransilvaniacluj.ro/",
+    "lat": 46.7727163,
+    "lon": 23.58894620000001,
+    "locuri": {"min": 0,"max": 40},
+    "telefon":["0-264.59.44.29","0-264.59.44.27", "0-732.40.55.43"],
+    "facilitati": ["WI-FI", "Flipchart", "Video proiector", "Inchirieri laptop", "Catering"]
+  },
+  "sala7": {
+    "nume": "Sala Topaz",
+    "hotel": "HOTEL TOPAZ",
+    "link": "http://www.hoteltopazcluj.ro/",
+    "lat": 46.7655123,
+    "lon": 23.610934799999995,
+    "locuri": {"min": 50,"max": 100},
+    "telefon":["0 264 414021"],
+    "facilitati": ["WI-FI", "Echipamente si dotari necesare conferintelor"]
+  },
+  "sala8": {
+    "nume": "Sala Rubin",
+    "hotel": "HOTEL TOPAZ",
+    "link": "http://www.hoteltopazcluj.ro/",
+    "lat": 46.7655123,
+    "lon": 23.610934799999995,
+    "locuri": {"min": 40,"max": 100},
+    "telefon":["0 264 414021"],
+    "facilitati": ["WI-FI", "Echipamente si dotari necesare conferintelor"]
+  },
+  "sala9": {
+    "nume": "Sala Chesterfield",
+    "hotel": "HOTEL TOPAZ",
+    "link": "http://www.hoteltopazcluj.ro/",
+    "lat": 46.7655123,
+    "lon": 23.610934799999995,
+    "locuri": {"min": 0,"max": 25},
+    "telefon":["0 264 414021"],
+    "facilitati": ["WI-FI", "Echipamente si dotari necesare conferintelor"]
+  },
+  "sala10": {
+    "nume": "Sala Windsor",
+    "hotel": "HOTEL TOPAZ",
+    "link": "http://www.hoteltopazcluj.ro/",
+    "lat": 46.7655123,
+    "lon": 23.610934799999995,
+    "locuri": {"min": 0,"max": 15},
+    "telefon":["0 264 414021"],
+    "facilitati": ["WI-FI", "Echipamente si dotari necesare conferintelor"]
+  },
+  "sala11": {
+    "nume": "Sala Windsor",
+    "hotel": "HOTEL TOPAZ",
+    "link": "http://www.hoteltopazcluj.ro/",
+    "lat": 46.7655123,
+    "lon": 23.610934799999995,
+    "locuri": {"min": 0,"max": 15},
+    "telefon":["0 264 414021"],
+    "facilitati": ["WI-FI", "Echipamente si dotari necesare conferintelor"]
+  },
+  "sala12": {
+    "nume": "Sala George Enescu",
+    "hotel": "HOTEL SUNNY HILL",
+    "link": "http://www.hotelsunnyhill.ro/",
+    "lat": 46.725587,
+    "lon": 23.581102299999998,
+    "locuri": {"min": 70,"max": 220},
+    "telefon":["0754066149", "0264-480328","0744562411"],
+    "facilitati": ["Flipchart", "Video proiector", "Sistem audio - microfoane mobile", "Internet", "Video/DVD"]
+  },
+  "sala13": {
+    "nume": "Sala Noblesse cort",
+    "hotel": "HOTEL SUNNY HILL",
+    "link": "http://www.hotelsunnyhill.ro/",
+    "lat": 46.725587,
+    "lon": 23.581102299999998,
+    "locuri": {"min": 0,"max": 700},
+    "telefon":["0754066149", "0264-480328", "0754066149"],
+    "facilitati": ["Flipchart", "Video proiector", "Sistem audio - microfoane mobile", "Internet", "Video/DVD"]
+  },
+  "sala14": {
+    "nume": "Sala George Cosbuc",
+    "hotel": "HOTEL SUNNY HILL",
+    "link": "http://www.hotelsunnyhill.ro/",
+    "lat": 46.725587,
+    "lon": 23.581102299999998,
+    "locuri": {"min": 50,"max": 160},
+    "telefon":["0754066149", "0264-480328", "0744562411"],
+    "facilitati": ["Flipchart", "Video proiector", "Sistem audio - microfoane mobile", "Internet", "Video/DVD"]
+  }
+}

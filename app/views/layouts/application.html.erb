@@ -1,14 +1,38 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>ClujMapping</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
+  <head>
+    <title>ClujMapping</title>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    <%= csrf_meta_tags %>
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+  </head>
+  <body>
+    <%= render 'layouts/header' %>
 
-<%= yield %>
+    <%= render 'layouts/map' %>
+    <div class="container-fluid" id="main">
+      <div class="row">
+      	<div class="col-xs-8" id="left">
 
-</body>
+          <h2>Bootstrap Google Maps Demo</h2>
+
+          <!-- item list -->
+          <div class="panel panel-default">
+            <div class="panel-heading"><a href="">Item heading</a></div>
+          </div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate.
+            Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis
+            dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan.
+            Aliquam in felis sit amet augue.</p>
+          <hr>
+          <!-- /item list -->
+        </div>
+        <div class="col-xs-4"><!--map-canvas will be postioned here--></div>
+
+      </div>
+    </div>
+    <%= yield %>
+    <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  </body>
 </html>
