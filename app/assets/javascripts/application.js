@@ -15,6 +15,7 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require leaflet
+//= require chosen-jquery
 //= require_tree .
 
 var map = L.map('map-canvas').setView([46.76, 23.58], 12);
@@ -33,3 +34,20 @@ rooms.each(function() {
   var marker = L.marker([lat, lon]).addTo(map);
   marker.bindPopup("<b>Hello world!</b><br>I am a popup.");
 });
+
+
+var ready = function() {
+
+  $('.chosen-select').chosen({
+     no_results_text: 'No results matched'
+ });
+
+
+
+
+}
+
+
+$('document').ready(ready);
+/* Page load is what turbo links will trigger. */
+$(document).on('page:load', ready);

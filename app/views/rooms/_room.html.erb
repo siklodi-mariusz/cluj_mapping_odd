@@ -7,5 +7,9 @@
  <%= hidden_field_tag :room_lat, room.lat %>
  <%= hidden_field_tag :room_lon, room.lon %>
  <%= image_tag room.img_url, class: 'img-responsive' %>
+ <% facilities =  room.facilities.map {|a| Facility.find(a.id) } %>
+ <% facilities.each do |f| %>
+    <%= f.name %>
+  <% end %>
 </p>
 <hr>

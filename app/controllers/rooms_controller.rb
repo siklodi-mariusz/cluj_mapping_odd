@@ -4,10 +4,15 @@ class RoomsController < ApplicationController
   # GET /rooms
   # GET /rooms.json
   def index
+    @facilities = Facility.all
+    facilities_list = params[:facilities] ? params[:facilities] : Facility.all.map { |a| a.id }
+    # byebug
     if params[:search]
-      @rooms = Room.seats_search(params[:search])
+      @rooms = Room.includes(:facilities).where(facilities: {id: facilities_list }).seats_search(params[:search])
+      # @rooms = Room.seats_search(params[:search])
     else
-      @rooms = Room.all
+      # byebug
+      @rooms = Room.includes(:facilities).where(facilities: {id: facilities_list })
     end
   end
 

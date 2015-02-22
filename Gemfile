@@ -5,6 +5,7 @@ source 'https://rubygems.org'
 gem 'rails', '4.2.0'
 gem 'bootstrap-sass', '~> 3.3.3'
 gem 'leaflet-rails', '~> 0.7.4'
+gem 'chosen-rails', '~> 1.3.0'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets

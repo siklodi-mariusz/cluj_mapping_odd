@@ -18,6 +18,7 @@
             <input type="text" class="form-control" placeholder="ex: 100 seats"> -->
             <%= form_tag rooms_path, method: :get, class: "navbar-form" do %>
               <%= text_field_tag :search,nil, placeholder: "ex: 30 seats" %>
+              <%= select_tag :facilities, options_from_collection_for_select(@facilities, "id", "name"), multiple: true, class: 'chosen-select' %>
             <%= submit_tag "Search", class: 'btn btn-default btn-rimary' %>
             <% end %>
             <!-- <span class="input-group-addon"><span class="glyphicon glyphicon-search"></span> </span> -->
