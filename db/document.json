@@ -7,7 +7,8 @@
     "lon": 23.52099599999997,
     "locuri": {"min": 70,"max": 400},
     "telefon":["0264 501 820","0733 055 923"],
-    "facilitati": ["Aer conditionat", "WI-FI", "Flipchart", "Video proiector", "TV LCD", "Microfoane", "Sisteme Audio"]
+    "facilitati": ["Aer conditionat", "WI-FI", "Flipchart", "Video proiector", "TV LCD", "Microfoane", "Sisteme Audio"],
+    "image_url":"http://www.sali-conferinte.ro/thumb/west%20city%20cristal%203.jpg" 
   },
   "sala2": {
     "nume": "Sala Blue Sky",
@@ -17,7 +18,9 @@
     "lon": 23.52099599999997,
     "locuri": {"min": 40,"max": 80},
     "telefon":["0264501820","0733055923"],
-    "facilitati": ["Aer conditionat", "WI-FI", "Flipchart", "Video proiector", "TV LCD", "Microfoane", "Sisteme Audio"]
+    "facilitati": ["Aer conditionat", "WI-FI", "Flipchart", "Video proiector", "TV LCD", "Microfoane", "Sisteme Audio"],
+    "image_url":"http://www.westcityhotel.ro/wp-content/uploads/2012/12/Hotel-in-Cluj-Hoteluri-Cluj-Cazare-ieftina-Cluj-hotel-4-stele-sali-evenimente-Cluj-sala-conferinta-accomodation-Cluj-hotels-Cluj-Romania-oferte-Hoteluri-Cluj-oferte-cazare-Cluj-231.jpg" 
+  },
   },
   "sala3": {
     "nume": "Sala Board Room",
@@ -27,7 +30,8 @@
     "lon": 23.52099599999997,
     "locuri": {"min": 0,"max": 14},
     "telefon":["0264501820","0733055923"],
-    "facilitati": ["Aer conditionat", "WI-FI", "Flipchart", "Video proiector", "TV LCD", "Microfoane", "Sisteme Audio"]
+    "facilitati": ["Aer conditionat", "WI-FI", "Flipchart", "Video proiector", "TV LCD", "Microfoane", "Sisteme Audio"],
+    "image_url":"http://www.westcityhotel.ro/wp-content/uploads/2012/12/Hotel-in-Cluj-Hoteluri-Cluj-Cazare-ieftina-Cluj-hotel-4-stele-sali-evenimente-Cluj-sala-conferinta-accomodation-Cluj-hotels-Cluj-Romania-oferte-Hoteluri-Cluj-oferte-cazare-Cluj.jpg" 
   },
   "sala5": {
     "nume": "Sali conferinte",
@@ -37,7 +41,8 @@
     "lon": 23.626860999999963,
     "locuri": {"min": 25,"max": 80},
     "telefon":["0264 414 161","0734 771 177"],
-    "facilitati": ["Aer conditionat", "WI-FI", "Flipchart", "Video proiector", "TV LCD", "Microfoane", "Sisteme Audio", "Sistem Teleconferinta", "Cabine pentru traducatori"]
+    "facilitati": ["Aer conditionat", "WI-FI", "Flipchart", "Video proiector", "TV LCD", "Microfoane", "Sisteme Audio", "Sistem Teleconferinta", "Cabine pentru traducatori"],
+    "image_url":"http://www.universt.ro/images/phocagallery/Conferinta/thumbs/phoca_thumb_l_sala%20jupiter1.jpg" 
   },
   "sala6": {
     "nume": "Sala evenimente",
@@ -47,7 +52,8 @@
     "lon": 23.58894620000001,
     "locuri": {"min": 0,"max": 40},
     "telefon":["0-264.59.44.29","0-264.59.44.27", "0-732.40.55.43"],
-    "facilitati": ["WI-FI", "Flipchart", "Video proiector", "Inchirieri laptop", "Catering"]
+    "facilitati": ["WI-FI", "Flipchart", "Video proiector", "Inchirieri laptop", "Catering"],
+    "image_url":"http://www.hotel-transilvania.ro/pics/sala_de_conferinte/sala_conferinta_hotel_rimini_cluj_napoca4.jpg" 
   },
   "sala7": {
     "nume": "Sala Topaz",
@@ -57,7 +63,8 @@
     "lon": 23.610934799999995,
     "locuri": {"min": 50,"max": 100},
     "telefon":["0 264 414021"],
-    "facilitati": ["WI-FI", "Echipamente si dotari necesare conferintelor"]
+    "facilitati": ["WI-FI", "Echipamente si dotari necesare conferintelor"],
+    "image_url":"http://www.hoteltopazcluj.ro/images/stories/content/sali_conferinte/topaz.jpg" 
   },
   "sala8": {
     "nume": "Sala Rubin",
@@ -67,7 +74,8 @@
     "lon": 23.610934799999995,
     "locuri": {"min": 40,"max": 100},
     "telefon":["0 264 414021"],
-    "facilitati": ["WI-FI", "Echipamente si dotari necesare conferintelor"]
+    "facilitati": ["WI-FI", "Echipamente si dotari necesare conferintelor"],
+    "image_url":"http://www.hoteltopazcluj.ro/images/stories/content/sali_conferinte/rubin.jpg" 
   },
   "sala9": {
     "nume": "Sala Chesterfield",
@@ -77,17 +85,8 @@
     "lon": 23.610934799999995,
     "locuri": {"min": 0,"max": 25},
     "telefon":["0 264 414021"],
-    "facilitati": ["WI-FI", "Echipamente si dotari necesare conferintelor"]
-  },
-  "sala10": {
-    "nume": "Sala Windsor",
-    "hotel": "HOTEL TOPAZ",
-    "link": "http://www.hoteltopazcluj.ro/",
-    "lat": 46.7655123,
-    "lon": 23.610934799999995,
-    "locuri": {"min": 0,"max": 15},
-    "telefon":["0 264 414021"],
-    "facilitati": ["WI-FI", "Echipamente si dotari necesare conferintelor"]
+    "facilitati": ["WI-FI", "Echipamente si dotari necesare conferintelor"],
+    "image_url":"http://www.hoteltopazcluj.ro/images/stories/content/sali_conferinte/ushape.jpg" 
   },
   "sala11": {
     "nume": "Sala Windsor",
@@ -97,7 +96,8 @@
     "lon": 23.610934799999995,
     "locuri": {"min": 0,"max": 15},
     "telefon":["0 264 414021"],
-    "facilitati": ["WI-FI", "Echipamente si dotari necesare conferintelor"]
+    "facilitati": ["WI-FI", "Echipamente si dotari necesare conferintelor"],
+    "image_url":"http://www.hoteltopazcluj.ro/images/stories/content/sali_conferinte/windsor.jpg" 
   },
   "sala12": {
     "nume": "Sala George Enescu",
@@ -107,7 +107,8 @@
     "lon": 23.581102299999998,
     "locuri": {"min": 70,"max": 220},
     "telefon":["0754066149", "0264-480328","0744562411"],
-    "facilitati": ["Flipchart", "Video proiector", "Sistem audio - microfoane mobile", "Internet", "Video/DVD"]
+    "facilitati": ["Flipchart", "Video proiector", "Sistem audio - microfoane mobile", "Internet", "Video/DVD"],
+    "image_url":"http://www.hotelsunnyhill.ro/Images/FCK/image/BannerTopSalaConf.jpg" 
   },
   "sala13": {
     "nume": "Sala Noblesse cort",
@@ -117,7 +118,8 @@
     "lon": 23.581102299999998,
     "locuri": {"min": 0,"max": 700},
     "telefon":["0754066149", "0264-480328", "0754066149"],
-    "facilitati": ["Flipchart", "Video proiector", "Sistem audio - microfoane mobile", "Internet", "Video/DVD"]
+    "facilitati": ["Flipchart", "Video proiector", "Sistem audio - microfoane mobile", "Internet", "Video/DVD"],
+    "image_url":"http://www.hotelsunnyhill.ro/Images/Sali-de-conferinta-Cluj/00000123/00000774_large.jpg" 
   },
   "sala14": {
     "nume": "Sala George Cosbuc",
@@ -127,6 +129,7 @@
     "lon": 23.581102299999998,
     "locuri": {"min": 50,"max": 160},
     "telefon":["0754066149", "0264-480328", "0744562411"],
-    "facilitati": ["Flipchart", "Video proiector", "Sistem audio - microfoane mobile", "Internet", "Video/DVD"]
+    "facilitati": ["Flipchart", "Video proiector", "Sistem audio - microfoane mobile", "Internet", "Video/DVD"],
+    "image_url":"http://www.hotelsunnyhill.ro/Images/Galerie-foto_GalleryDetail/00000059/00000966_large.jpg" 
   }
 }
