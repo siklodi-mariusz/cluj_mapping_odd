@@ -6,6 +6,7 @@
   <%= link_to @room.hotel, @room.link %> Seats: <%= 'min: ' + @room.min.to_s + ' max: ' + @room.max.to_s %><br>
   <%= hidden_field_tag :room_lat, @room.lat %>
   <%= hidden_field_tag :room_lon, @room.lon %>
+  <%= image_tag @room.img_url, class: 'img-responsive' %>
 </p>
 <hr>
 
