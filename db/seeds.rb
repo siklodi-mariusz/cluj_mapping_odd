@@ -18,9 +18,14 @@ rooms_json.each do |r|
               lon: r[1]["lon"],
               min: r[1]["locuri"]["min"],
               max: r[1]["locuri"]["max"],
-              phone: r[1]["telefon"].join(' ')
+              phone: r[1]["telefon"].join(' '),
+              img_url: r[1]['image-url']
+
    )
    r[1]["facilitati"].each do |f|
-     room.facilities.create(name: f)
+     facility = Facility.new(name: f)
+     if facility.save
+       room.facilities.create(facility)
+     end
    end
 end
