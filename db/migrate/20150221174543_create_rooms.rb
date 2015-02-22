@@ -4,8 +4,8 @@ class CreateRooms < ActiveRecord::Migration
       t.string :name
       t.string :hotel
       t.string :link
-      t.decimal :lat
-      t.decimal :lon
+      t.float :lat
+      t.float :lon
       t.integer :min
       t.integer :max
       t.string :phone
