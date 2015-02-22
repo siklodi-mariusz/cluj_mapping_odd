@@ -12,23 +12,17 @@
         <li class="active"><%= link_to 'All Halls', rooms_url %> </li>
         <li>&nbsp;</li>
       </ul>
-      <form class="navbar-form">
+      <!-- <form class="navbar-form">
         <div class="form-group" style="display:inline;">
           <div class="input-group">
-            <!-- <div class="input-group-btn">
-              <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-chevron-down"></span></button>
-              <ul class="dropdown-menu">
-                <li><a href="#">Category 1</a></li>
-                <li><a href="#">Category 2</a></li>
-                <li><a href="#">Category 3</a></li>
-                <li><a href="#">Category 4</a></li>
-                <li><a href="#">Category 5</a></li>
-              </ul>
-            </div> -->
-            <input type="text" class="form-control" placeholder="What are searching for?">
-            <span class="input-group-addon"><span class="glyphicon glyphicon-search"></span> </span>
-          </div>
-        </div>
-      </form>
+            <input type="text" class="form-control" placeholder="ex: 100 seats"> -->
+            <%= form_tag rooms_path, method: :get, class: "navbar-form" do %>
+              <%= text_field_tag :search,nil, placeholder: "ex: 30 seats" %>
+            <%= submit_tag "Search", class: 'btn btn-default btn-rimary' %>
+            <% end %>
+            <!-- <span class="input-group-addon"><span class="glyphicon glyphicon-search"></span> </span> -->
+          <!-- </div>
+        </div> -->
+      <!-- </form> -->
     </div>
   </div>

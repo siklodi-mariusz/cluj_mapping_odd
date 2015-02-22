@@ -62,3 +62,6 @@ body{
     bottom:0;
     overflow:hidden;
 }
+#search {
+  color: black;
+}

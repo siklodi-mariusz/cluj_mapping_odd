@@ -1,3 +1,4 @@
 class Facility < ActiveRecord::Base
-  belongs_to :room
+  has_and_belongs_to_many :rooms
+  validates :name, uniqueness: true
 end
